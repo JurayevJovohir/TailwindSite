@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind in Grid</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="font-body">
+    <header class="pt-12 pb-36 bg-headerbgi bg-no-repeat bg-cover">
+        <div class="container mx-auto px-10">
+            <div>
+                <div class="flex items-center justify-between">
+                    <a href="./index.html">
+                        <img src="./images/sitelogo.svg" alt="Site logo" />
+                    </a>
+                    <nav class="hidden md:block lg:block xl:block 2xl:block">
+                        <ul class="flex items-center">
+                            <li class="">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">About</a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">Careers</a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">Events</a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">Products</a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">Support</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="w-7/12 mt-32 pt-10 pb-6 px-10 border-2 border-solid border-white">
+                    <h1
+                        class="text-5xl md:text-5xl lg:text-7xl xl:text-7xl 2xl:text-7xl font-body2 text-white uppercase leading-height">
+                        Immersive experiences that deliver
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="pt-40 pb-44">
+            <div class="container mx-auto px-10">
+                <div class="relative">
+                    <img class="inline-block" src="./images/PeopleVR.jpg" alt="People VR" width="730" height="500" />
+                    <div class="max-w-vrWidth pt-28 pl-28 absolute bottom-0 right-0 bg-white">
+                        <h3 class="text-5xl font-body2 uppercase leading-height">The leader in interactive VR</h3>
+                        <p class="text-vrfont opacity-50">
+                            Founded in 2011, Loopstudios has been producing world-class
+                            virtual reality projects for some of the best companies around
+                            the globe. Our award-winning creations have transformed
+                            businesses through digital experiences that bind to their brand.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="pb-44">
+            <div class="container mx-auto px-10">
+                <div class="flex items-center justify-between mb-20">
+                    <h2 class="text-5xl font-body2 uppercase leading-height">
+                        OUR CREATIONS
+                    </h2>
+                    <a class="font-body tracking-gridtitle py-3 px-10 border border-black hover:bg-black hover:text-white transition-all"
+                        href="#">SEE ALL
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-4 pl-28">
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-earth w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">DEEP EARTH</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-arcade w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">NIGHT ARCADE</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-soccer w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">SOCCER TEAM VR</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-car w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle3 absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">THE GRID</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-road w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle2 absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">FROM UP ABOVE VR</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-curiocity w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">POCKET BOREALIS</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-borealis w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">THE CURIOSITY</h3>
+                        </div>
+                    </div>
+
+                    <div
+                        class="relative mb-6 pb-8 px-12 bg-fisheye w-64 h-grid hover:opacity-40 hover:text-black transition-all">
+                        <div class="max-w-gridsubtitle absolute bottom-8">
+                            <h3 class="text-3xl font-body2 uppercase text-white">MAKE IT FISHEYE</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="py-11 bg-black">
+        <div class="container mx-auto px-10">
+            <div class="flex justify-between">
+                <div class="flex flex-col">
+                    <a href="./index.html">
+                        <img src="./images/sitelogo.svg" alt="Site logo" />
+                    </a>
+
+                    <div class="nav mt-6">
+                        <ul class="flex items-center">
+                            <li class="">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">
+                                    About
+                                </a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">
+                                    Careers
+                                </a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">
+                                    Events
+                                </a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">
+                                    Products
+                                </a>
+                            </li>
+
+                            <li class="ml-8">
+                                <a class="leading-6 border-b-2 border-transparent text-white hover:border-b-2 hover:border-white"
+                                    href="#">
+                                    Support
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-end">
+                    <ul class="flex items-center mb-4">
+                        <li class=" pb-2 border-b-2 border-transparent hover:border-b-2 hover:border-white">
+                            <a href="https://facebook.com">
+                                <img src="./images/facebook.svg" alt="Facebook" />
+                            </a>
+                        </li>
+
+                        <li class="ml-4 pb-2 border-b-2 border-transparent hover:border-b-2 hover:border-white">
+                            <a href="https://twitter.com">
+                                <img src="./images/piscart.svg" alt="P" />
+                            </a>
+                        </li>
+
+                        <li class="ml-4 pb-2 border-b-2 border-transparent hover:border-b-2 hover:border-white">
+                            <a href="https://instagram.com">
+                                <img src="./images/twitter.svg" alt="Twitter" />
+                            </a>
+                        </li>
+
+                        <li class="ml-4 pb-2 border-b-2 border-transparent hover:border-b-2 hover:border-white">
+                            <a href="https://instagram.com">
+                                <img src="./images/instagram.svg" alt="Instagram" />
+                            </a>
+                        </li>
+                    </ul>
+
+                    <small class="text-white opacity-50">© 2021 Loopstudios. All rights reserved.</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
